@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.active-component {
+		@apply text-[#161141]  bg-gradient-to-tr from-[#20DCDF] to-[#00FF88] rounded-full;
+	}
+}
